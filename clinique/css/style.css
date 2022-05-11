@@ -321,13 +321,6 @@ body a:hover {
 @font-face {
   font-family: Raleway;
   font-display: swap;
-  src: url("../fonts/Raleway-Italic.woff2") format("woff2"), url("../fonts/Raleway-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Raleway;
-  font-display: swap;
   src: url("../fonts/Raleway-ExtraBold.woff2") format("woff2"), url("../fonts/Raleway-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
@@ -337,6 +330,13 @@ body a:hover {
   font-display: swap;
   src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-Italic.woff2") format("woff2"), url("../fonts/Raleway-Italic.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
@@ -517,14 +517,17 @@ body a:hover {
 }
 .menu__logo-element {
   padding-right: 2rem;
-}
-.menu__logo-element {
   white-space: nowrap;
 }
 .menu__link {
   font-size: 1rem;
   color: #212734;
   line-height: 1;
+}
+@media (max-width: 86.0666666667rem) {
+  .menu__link {
+    font-size: 0.8666666667rem;
+  }
 }
 
 .visible {
@@ -552,7 +555,7 @@ body a:hover {
 }
 
 .right-menu {
-  margin-left: 2.3333333333rem;
+  margin-left: 1rem;
   padding-top: 0.8666666667rem;
 }
 @media (max-width: 44rem) {
@@ -1183,7 +1186,31 @@ body a:hover {
   border-radius: 1.3333333333rem;
   background-color: #ffffff;
 }
-@media (max-width: 93.3333333333rem) {
+@media (max-width: 96rem) {
+  .popular__button {
+    width: 24.8666666667rem;
+    height: 23.6666666667rem;
+  }
+}
+@media (max-width: 81.6rem) {
+  .popular__button {
+    width: 18.2rem;
+    height: 23.6666666667rem;
+  }
+}
+@media (max-width: 81.6rem) {
+  .popular__button {
+    width: 18.2rem;
+    height: 23.6666666667rem;
+  }
+}
+@media (max-width: 73.5333333333rem) {
+  .popular__button {
+    width: 16rem;
+    height: 23.6666666667rem;
+  }
+}
+@media (max-width: 63.8rem) {
   .popular__button {
     display: none;
   }
@@ -1277,9 +1304,24 @@ body a:hover {
   background-color: #ffffff;
   border: 1px solid #3459ae;
 }
-@media (max-width: 100rem) {
+@media (max-width: 77.8666666667rem) {
   #superdotts {
-    margin-left: -25%;
+    margin-left: -14%;
+  }
+}
+@media (max-width: 69.8666666667rem) {
+  #superdotts {
+    margin-left: -17%;
+  }
+}
+@media (max-width: 65.9333333333rem) {
+  #superdotts {
+    margin-left: -20%;
+  }
+}
+@media (max-width: 59.7333333333rem) {
+  #superdotts {
+    margin-left: -23%;
   }
 }
 @media (max-width: 49.1333333333rem) {
@@ -1313,14 +1355,34 @@ body a:hover {
 #next {
   margin-right: 13.3333333333rem;
 }
-@media (max-width: 100rem) {
+@media (max-width: 88rem) {
   #next {
-    margin-right: 50%;
+    right: 10%;
+  }
+}
+@media (max-width: 72.5333333333rem) {
+  #next {
+    right: 15%;
+  }
+}
+@media (max-width: 67.2rem) {
+  #next {
+    right: 20%;
+  }
+}
+@media (max-width: 61.8666666667rem) {
+  #next {
+    right: 25%;
+  }
+}
+@media (max-width: 56rem) {
+  #next {
+    right: 30%;
   }
 }
 @media (max-width: 49.1333333333rem) {
   #next {
-    margin-right: 80%;
+    right: 70%;
   }
 }
 
@@ -1419,40 +1481,69 @@ body a:hover {
 #supernext {
   right: 10%;
 }
-@media (max-width: 85.5333333333rem) {
+@media (max-width: 77.8rem) {
+  #supernext {
+    right: 15%;
+  }
+}
+@media (max-width: 72.2666666667rem) {
   #supernext {
     right: 20%;
   }
 }
-@media (max-width: 67.8rem) {
+@media (max-width: 68.0666666667rem) {
+  #supernext {
+    right: 25%;
+  }
+}
+@media (max-width: 64.3333333333rem) {
   #supernext {
     right: 30%;
   }
 }
-@media (max-width: 59.0666666667rem) {
+@media (max-width: 59.6666666667rem) {
+  #supernext {
+    right: 35%;
+  }
+}
+@media (max-width: 55rem) {
   #supernext {
     right: 40%;
   }
 }
-@media (max-width: 54.2rem) {
+@media (max-width: 49.8666666667rem) {
+  #supernext {
+    right: 45%;
+  }
+}
+@media (max-width: 45.2rem) {
   #supernext {
     right: 50%;
   }
 }
-@media (max-width: 43.9333333333rem) {
+@media (max-width: 42.4rem) {
+  #supernext {
+    right: 55%;
+  }
+}
+@media (max-width: 37.7333333333rem) {
   #supernext {
     right: 60%;
   }
 }
-@media (max-width: 35rem) {
+@media (max-width: 32.6rem) {
   #supernext {
-    right: 80%;
+    right: 65%;
   }
 }
-
-@media (max-width: 85.5333333333rem) {
-  #megaprev {
-    left: 10%;
+@media (max-width: 27.9333333333rem) {
+  #supernext {
+    right: 70%;
+  }
+}
+@media (max-width: 22.4rem) {
+  #supernext {
+    right: 75%;
   }
 }
 
@@ -1547,6 +1638,10 @@ body a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+@media (max-width: 1096px) {
+  .news__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1558,6 +1653,11 @@ body a:hover {
   width: 24.6666666667rem;
   height: 15rem;
   border-radius: 1.2rem;
+}
+@media (max-width: 105.0666666667rem) {
+  .news__item-one {
+    height: 16rem;
+  }
 }
 .news__btn {
   margin-left: 1.3333333333rem;
@@ -1738,18 +1838,12 @@ body a:hover {
 .partners__row {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6];
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(11.1333333333rem, 1fr));
   gap: 1.3333333333rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 1.3333333333rem;
-}
-@media (max-width: 98.7333333333rem) {
-  .partners__row {
-    grid-template-columns: repeat(auto-fit, minmax(13.3333333333rem, 1fr));
-  }
 }
 .partners__item {
   padding: 1.3333333333rem;
@@ -1758,6 +1852,15 @@ body a:hover {
   border: 3px solid #ffffff;
   -webkit-box-shadow: 0px 10px 10px #f2f2f2;
           box-shadow: 0px 10px 10px #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
 }
 
