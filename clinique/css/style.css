@@ -1054,6 +1054,11 @@ body a:hover {
   height: 43.4rem;
   padding-top: 86px;
 }
+@media (max-width: 516px) {
+  .our {
+    padding-bottom: 80rem;
+  }
+}
 @media (max-width: maxWidthContainerpx) {
   .our {
     padding-top: calc(40px + 46 * ((100vw - 320px) / 813px));
@@ -1080,14 +1085,15 @@ body a:hover {
     margin-bottom: calc(20px + 36 * ((100vw - 320px) / 813px));
   }
 }
-.our__row {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13.5333333333rem, 1fr));
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0px auto;
+@media (min-width: 516px) {
+  .our__row {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13.5333333333rem, 1fr));
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 .our__item {
   -webkit-transition: all ease 0.3s 0s;
@@ -1935,7 +1941,8 @@ body a:hover {
 .goods__item-special .rating {
   margin-left: 1.3333333333rem;
 }
-.goods__item-special a, .goods__item-special button {
+.goods__item-special a,
+.goods__item-special button {
   margin-left: 0;
 }
 .goods__link {
