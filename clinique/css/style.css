@@ -1556,7 +1556,8 @@ body a:hover {
   background: -o-linear-gradient(rgba(255, 255, 255, 0.29), #ffffff);
   background: linear-gradient(rgba(255, 255, 255, 0.29), #ffffff);
   width: 24.6666666667rem;
-  height: 14.3333333333rem;
+  height: 15rem;
+  border-radius: 1.2rem;
 }
 .news__btn {
   margin-left: 1.3333333333rem;
@@ -1584,17 +1585,19 @@ body a:hover {
 }
 .news__item-two {
   width: 24.6666666667rem;
-  height: 14.3333333333rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.29)), to(#ffffff));
   background: -o-linear-gradient(rgba(255, 255, 255, 0.29), #ffffff);
   background: linear-gradient(rgba(255, 255, 255, 0.29), #ffffff);
+  height: 14.1333333333rem;
+  border-radius: 1.2rem;
 }
 .news__item-three {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.29)), to(#ffffff));
   background: -o-linear-gradient(rgba(255, 255, 255, 0.29), #ffffff);
   background: linear-gradient(rgba(255, 255, 255, 0.29), #ffffff);
   width: 24.6666666667rem;
-  height: 14.3333333333rem;
+  height: 14.1333333333rem;
+  border-radius: 1.1333333333rem;
 }
 @media (max-width: 28.9333333333rem) {
   .news__item-one, .news__item-two, .news__item-three {
