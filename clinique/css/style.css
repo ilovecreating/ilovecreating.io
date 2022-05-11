@@ -328,15 +328,15 @@ body a:hover {
 @font-face {
   font-family: Raleway;
   font-display: swap;
-  src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
-  font-weight: 500;
+  src: url("../fonts/Raleway-Italic.woff2") format("woff2"), url("../fonts/Raleway-Italic.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Raleway;
   font-display: swap;
-  src: url("../fonts/Raleway-Italic.woff2") format("woff2"), url("../fonts/Raleway-Italic.woff") format("woff");
-  font-weight: 400;
+  src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
@@ -1022,14 +1022,14 @@ body a:hover {
     padding-top: calc(40px + 46 * ((100vw - 320px) / 813px));
   }
 }
-@media (max-width: 66.9333333333rem) {
-  .our {
-    margin-bottom: 20rem;
-  }
-}
 @media (max-width: 34.4rem) {
   .our {
     margin-bottom: 66.6666666667rem;
+  }
+}
+@media (max-width: 1004px) {
+  .our {
+    margin-bottom: 20rem;
   }
 }
 .our__title {
