@@ -614,6 +614,15 @@ body a:hover {
   padding: 0.6666666667rem 1rem 0.6666666667rem;
   border-radius: 0.2666666667rem;
   white-space: nowrap;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.right-menu__btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#658ded), to(#3459ae));
+  background: -o-linear-gradient(#658ded, #3459ae);
+  background: linear-gradient(#658ded, #3459ae);
+  color: #ffffff;
 }
 .right-menu__tel {
   display: inline-block;
@@ -687,6 +696,16 @@ body a:hover {
   width: 14.4666666667rem;
   height: 4.5333333333rem;
   color: #ffffff;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.mavie__button:hover {
+  background: #ffffff;
+  color: #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 
 .swiper-swipe {
@@ -741,6 +760,14 @@ body a:hover {
   height: 13px !important;
   background-color: #ffffff !important;
   opacity: 1 !important;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.swiper-pagination-bullet:hover {
+  -webkit-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .swiper-pagination-bullet-active {
@@ -871,6 +898,11 @@ body a:hover {
             flex-direction: column;
   }
 }
+.contacts__social-link {
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
 .contacts__social-link:not(:first-child) {
   margin-left: 1.4666666667rem;
 }
@@ -881,6 +913,11 @@ body a:hover {
   .contacts__social-link:first-child {
     margin-left: 0;
   }
+}
+.contacts__social-link:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .contacts__credit-link {
   font-family: "Open Sans", serif;
@@ -1052,6 +1089,16 @@ body a:hover {
           justify-content: center;
   margin: 0px auto;
 }
+.our__item {
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.our__item:hover {
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+}
 .our__mini-link {
   cursor: pointer;
 }
@@ -1067,6 +1114,16 @@ body a:hover {
   padding: 1.6666666667rem 3.9333333333rem 1.6666666667rem;
   color: #ffffff;
   border-radius: 1.1333333333rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.our__btn:hover {
+  background: #ffffff;
+  color: #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 .our__title {
   margin-top: 1.3333333333rem;
@@ -1185,6 +1242,13 @@ body a:hover {
   bottom: 22%;
   border-radius: 1.3333333333rem;
   background-color: #ffffff;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.popular__button:hover {
+  -webkit-box-shadow: 1px 1px 30px 1px #dddddd;
+          box-shadow: 1px 1px 30px 1px #dddddd;
 }
 @media (max-width: 96rem) {
   .popular__button {
@@ -1228,6 +1292,13 @@ body a:hover {
   background: -o-linear-gradient(#658ded, #3459ae);
   background: linear-gradient(#658ded, #3459ae);
   margin-left: 4.9333333333rem;
+  -webkit-transition: all ease 0.3s 0.1s;
+  -o-transition: all ease 0.3s 0.1s;
+  transition: all ease 0.3s 0.1s;
+}
+.popular__btn:hover {
+  color: #3459ae;
+  background: #dddddd;
 }
 .popular__superlink {
   margin-top: 0.6666666667rem;
@@ -1275,6 +1346,13 @@ body a:hover {
   border-radius: 1.3333333333rem;
   width: 14.8rem;
   height: 23.2666666667rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.doctor__item:hover {
+  -webkit-box-shadow: 1px 1px 30px 1px #dddddd;
+          box-shadow: 1px 1px 30px 1px #dddddd;
 }
 .doctor__name {
   font-family: "Open sans", serif;
@@ -1303,6 +1381,14 @@ body a:hover {
 #superdotts span {
   background-color: #ffffff;
   border: 1px solid #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+#superdotts span:hover {
+  -webkit-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+          transform: scale(1.25);
 }
 @media (max-width: 77.8666666667rem) {
   #superdotts {
@@ -1340,6 +1426,17 @@ body a:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#658ded), to(#3459ae));
   background: -o-linear-gradient(#658ded, #3459ae);
   background: linear-gradient(#658ded, #3459ae);
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+#previous:hover,
+#next:hover {
+  background: rgba(12, 12, 12, 0.5);
+  color: #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 #previous::after,
 #next::after {
@@ -1452,6 +1549,16 @@ body a:hover {
   background: linear-gradient(#658ded, #3459ae);
   background-color: transparent;
   border: 1px solid #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.decor__btn:hover {
+  background: #ffffff;
+  color: #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 .decor__part-two {
   margin-top: 3.5333333333rem;
@@ -1460,9 +1567,16 @@ body a:hover {
 
 .super {
   margin-left: 1.3333333333rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.super:hover {
+  background: #ffffff;
   color: #3459ae;
-  background: transparent;
-  border: 1px solid #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 
 #megaprev,
@@ -1472,10 +1586,23 @@ body a:hover {
   height: 3rem;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 #megaprev::after,
 #supernext::after {
   font-size: 1.3333333333rem;
+}
+#megaprev:hover,
+#supernext:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#658ded), to(#3459ae));
+  background: -o-linear-gradient(#658ded, #3459ae);
+  background: linear-gradient(#658ded, #3459ae);
+  color: #ffffff;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 
 #supernext {
@@ -1586,6 +1713,9 @@ body a:hover {
   padding-right: 0.6666666667rem;
   position: relative;
   cursor: pointer;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 .news__watch::before {
   content: "";
@@ -1596,6 +1726,11 @@ body a:hover {
   top: 0.2333333333rem;
   right: 0;
   background-repeat: no-repeat;
+}
+.news__watch:hover {
+  -webkit-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+          transform: scale(1.25);
 }
 .news__image {
   position: relative;
@@ -1670,6 +1805,15 @@ body a:hover {
   padding: 0.0666666667rem 0.6666666667rem 0.0666666667rem;
   border-radius: 0.2666666667rem;
   margin-bottom: 0.6rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.news__btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#658ded), to(#3459ae));
+  background: -o-linear-gradient(#658ded, #3459ae);
+  background: linear-gradient(#658ded, #3459ae);
+  color: #ffffff;
 }
 .news__btn--one, .news__btn--two {
   margin-top: 8.6666666667rem;
@@ -1734,6 +1878,14 @@ body a:hover {
   margin-bottom: 3.3333333333rem;
   font-size: 2.4rem;
   font-weight: 600;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+  cursor: pointer;
+}
+.goods__title:hover {
+  text-decoration: underline;
+  color: #658ded;
 }
 .goods__row {
   display: -ms-grid;
@@ -1742,6 +1894,21 @@ body a:hover {
   gap: 3.3333333333rem;
   margin-bottom: 4.4666666667rem;
 }
+.goods__item {
+  cursor: pointer;
+  width: 20.3333333333rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+  border-radius: 2rem;
+}
+.goods__item:hover {
+  -webkit-box-shadow: 1px 1px 30px 1px #dddddd;
+          box-shadow: 1px 1px 30px 1px #dddddd;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
 .goods__item-special {
   margin-top: -1.3333333333rem;
   background-color: #f5f6f9;
@@ -1749,6 +1916,14 @@ body a:hover {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(111, 111, 111, 0.15);
           box-shadow: 0px 0px 15px 0px rgba(111, 111, 111, 0.15);
   border-radius: 2rem;
+  cursor: pointer;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.goods__item-special:hover {
+  -webkit-box-shadow: 1px 1px 30px 1px #dddddd;
+          box-shadow: 1px 1px 30px 1px #dddddd;
 }
 .goods__item-special img {
   position: relative;
@@ -1760,6 +1935,9 @@ body a:hover {
 .goods__item-special .rating {
   margin-left: 1.3333333333rem;
 }
+.goods__item-special a, .goods__item-special button {
+  margin-left: 0;
+}
 .goods__link {
   display: block;
   font-family: "Open Sans", serif;
@@ -1769,12 +1947,21 @@ body a:hover {
   color: #0c0c0c;
   margin-bottom: 0.8rem;
 }
+.goods__link, .goods__description, .goods__price {
+  padding-left: 1.3333333333rem;
+}
 .goods__description {
   display: block;
   font-family: "Open Sans", serif;
   color: #0c0c0c;
   line-height: 1.52;
   margin-bottom: 1.3333333333rem;
+}
+.goods__price {
+  margin-bottom: 1.3333333333rem;
+}
+.goods__super-price {
+  margin-left: 1.3333333333rem;
 }
 .goods__price-one {
   font-family: "Open Sans", serif;
@@ -1799,6 +1986,16 @@ body a:hover {
   color: #ffffff;
   height: 44px;
   border-radius: 1.0666666667rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.goods__button:hover {
+  background: #ffffff;
+  color: #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 .goods__top-button {
   text-transform: uppercase;
@@ -1813,10 +2010,21 @@ body a:hover {
   background: -o-linear-gradient(#658ded, #3459ae);
   background: linear-gradient(#658ded, #3459ae);
   border-radius: 1.1333333333rem;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.goods__top-button:hover {
+  background: #ffffff;
+  color: #3459ae;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
 }
 
 .rating {
   margin-top: 1.3333333333rem;
+  margin-left: 1.3333333333rem;
 }
 
 .partners {
@@ -1862,6 +2070,16 @@ body a:hover {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  -webkit-transition: all ease 0.3s 0s;
+  -o-transition: all ease 0.3s 0s;
+  transition: all ease 0.3s 0s;
+}
+.partners__item:hover {
+  -webkit-box-shadow: 1px 1px 30px 1px #dddddd;
+          box-shadow: 1px 1px 30px 1px #dddddd;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .geo {
@@ -1874,7 +2092,7 @@ body a:hover {
     padding-top: calc(50px + 70 * ((100vw - 320px) / 813px));
   }
 }
-@media (min-width: 79.7333333333rem) {
+@media (min-width: 916px) {
   .geo__row {
     display: -ms-grid;
     display: grid;
@@ -1887,11 +2105,24 @@ body a:hover {
 }
 .geo__image {
   cursor: pointer;
-  margin-left: 3.3333333333rem;
 }
 .geo__image img {
   width: 39.3333333333rem;
   height: 25.3333333333rem;
+}
+@media (max-width: 1205px) {
+  .geo__image img {
+    width: 32.6666666667rem;
+    height: 25.3333333333rem;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1025px) {
+  .geo__image img {
+    width: 26rem;
+    height: 25.3333333333rem;
+    margin-left: 0;
+  }
 }
 @media (max-width: 52rem) {
   .geo__image {
